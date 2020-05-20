@@ -37,7 +37,7 @@ const five = {
 const six = {
   text: "Who has pictures of this dog on their desk?",
   answer: "one",
-  choices: ["Erica", "Roseanne", "Suzanne L.", "Suzanne N-Z."],
+  choices: ["Erika", "Roseanne", "Suzanne L.", "Suzanne N-Z."],
   image: "dog.jpg"
 }
 
