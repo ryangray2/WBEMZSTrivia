@@ -17,7 +17,7 @@ const three = {
   text: "On whose desk can you find this picture? (side note: I've always wondered what creature is hugging the kangaroo)",
   answer: "two",
   choices: ["Luanne", "Pamela", "Florence", "Suzanne L."],
-  image: "roo.JPG"
+  image: "roo.jpg"
 }
 
 const four = {
