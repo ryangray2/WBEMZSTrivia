@@ -1,0 +1,66 @@
+#title {
+  font-family: "VT323";
+  /* color: #ffefc5; */
+  font-size: 100px;
+}
+
+body {
+  /* background-color: #33373c; */
+  font-family: "VT323";
+}
+
+a {
+  font-size: 25px;
+}
+
+#choices {
+  padding-top: 10px;
+}
+
+#questions {
+  display: none;
+}
+
+.stars {
+  padding-top: 5px;
+}
+
+#questionText {
+  font-size: 27px;
+}
+
+#nextRow {
+  display: none;
+  padding-top: 10px;
+  font-size: 25px;
+}
+
+#image {
+  display: none;
+  padding-top: 5px;
+}
+
+#actualImage {
+  max-width: 300px;
+}
+
+#results {
+  display: none;
+}
+
+#scoreHead {
+  font-size: 50px;
+  padding-top: 10px;
+}
+
+#score {
+  font-size: 100px;
+}
+
+#conscious {
+
+}
+
+#conDiv {
+  display: none;
+}

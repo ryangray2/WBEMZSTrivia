@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>WBEMZ&S Trivia</title>
+  <meta name="description" content="WBEMZ&S Trivia">
+  <meta name="author" content="Ryan Gray">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="wb.css">
+</head>
+
+<body onload="load()">
+  <div class="container" id="startPage">
+    <div class="row text-center">
+      <h1 id="title">WBEMZ&S Trivia</h1>
+      <a class="nes-btn" onclick="clickStart()">Start</a>
+    </div>
+    <div class="row text-center" id="conDiv">
+      <div class="nes-balloon from-left">
+        <h3 id="conscious"></h3>
+      </div>
+    </div>
+  </div>
+  <div class="container" id="questions">
+    <div class="row text-center stars">
+      <!-- <i class="nes-icon is-large star"></i>
+      <i class="nes-icon is-large star is-transparent"></i> -->
+      <i id="star1" class="nes-icon is-large star is-empty"></i>
+      <i id="star2" class="nes-icon is-large star is-empty"></i>
+      <i id="star3" class="nes-icon is-large star is-empty"></i>
+      <i id="star4" class="nes-icon is-large star is-empty"></i>
+      <i id="star5" class="nes-icon is-large star is-empty"></i>
+      <i id="star6" class="nes-icon is-large star is-empty"></i>
+      <i id="star7" class="nes-icon is-large star is-empty"></i>
+      <i id="star8" class="nes-icon is-large star is-empty"></i>
+      <i id="star9" class="nes-icon is-large star is-empty"></i>
+      <i id="star10" class="nes-icon is-large star is-empty"></i>
+    </div>
+    <div class="container" id="nonStars">
+      <div class="row">
+        <div class="nes-container is-rounded">
+          <p id="questionText">Good morning. Thou hast had a good night's sleep, I hope.</p>
+        </div>
+      </div>
+      <div class="row text-center" id="image">
+        <div class="nes-container with-title is-centered">
+          <img id="actualImage" src="">
+        </div>
+      </div>
+      <div class="row text-center" id="choices">
+        <a class="nes-btn" id="one" >Start</a>
+        <a class="nes-btn" id="two" >Start</a>
+        <a class="nes-btn" id="three" >Start</a>
+        <a class="nes-btn" id="four" >Start</a>
+      </div>
+      <div class="row text-center" id="nextRow">
+        <button type="button" class="nes-btn is-primary" onclick="nextPressed()">Next</button>
+      </div>
+    </div>
+    <div class="container" id="results">
+      <div class="row text-center">
+        <p id="scoreHead">Final Score:</p>
+      </div>
+      <div class="row text-center">
+        <h1 id="score">Your score is:</h1>
+      </div>
+      <div class="row text-center">
+        <div class="nes-balloon from-left">
+          <h3 id="ryan"></h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="questions.js"></script>
+  <script src="wb.js"></script>
+</body>
+</html>
